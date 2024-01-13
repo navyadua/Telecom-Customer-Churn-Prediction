@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 # Load the trained model
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('gbc_model.pkl', 'rb'))
 
 st.title("Customer Churn Prediction App")
 
